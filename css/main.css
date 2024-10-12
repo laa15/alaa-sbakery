@@ -1,0 +1,457 @@
+
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+.nav-bar{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    position: fixed;
+    z-index: 999999;  
+}
+.imglogo{
+  
+    width: 50%;
+    float: left;
+}
+
+.clr{
+    clear: both;
+}
+.imglogo img{
+    width: 200px;
+}
+.contener{
+    width: 80%;
+    margin: auto;
+}
+ul{
+    list-style: none;
+}
+a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.links ul li{
+    float: left;
+    padding: 20px 0 0 ;
+    margin-right: 10px;
+}
+
+.background{
+    background-image: url(../images/drew-coffman-1872.jpg);
+    width: 100%;
+    height:100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+}
+.layer{
+    background-color: rgba(0,0,0,0.4);
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    width: 100%;    
+}
+.layer .content{
+    
+    text-align: center;
+    width: 50%;
+    padding: 30px;
+    margin:auto;
+    margin-top: 300px;
+    color: aliceblue;
+}
+.layer .content h2 {
+
+    padding: 9px;
+    font-family: "Alegrey" ;
+    font-size: px;
+}
+.layer .content h1 {
+
+    padding: 10px;
+    font-family: "Alegreya";
+    font-weight: 600;
+    font-size: 60px;
+}
+.layer .content p  {
+    padding: 9px;
+    font-family: "Alegrey" ;
+    font-size: 15px; 
+}
+
+.button-83{
+    padding: 20px;
+    background-color: rgb(142, 119, 83);
+}
+.button-83:hover{
+    background-color: aliceblue;
+
+}
+.whoblog{
+    width: 100%;
+    margin: 20px;
+    padding: 20px;
+}
+.blogimage .inner img{
+    width: 50%;
+   
+    float: left;
+    padding: 20px;
+
+}
+.blogtext .inner{
+    width: 50%;
+   
+    float: left;
+    padding: 20px;
+}
+.blogtext .inner li img{
+    width: 30px;
+    height: 30px;
+    border: 1px solid rgb(133, 130, 130);
+    border-radius: 50%;
+}
+.blogtext .inner li{
+    padding: 10px;
+    margin-left: 10px;
+    font-family:"Alegreya Sans" ;
+    font-size: 19px;
+    color: rgb(133, 128, 128);
+}
+
+.blogtext .inner h2{
+    font-family:"Alegreya Sans" ;
+    font-size: 25px;
+}
+.blogtext .inner p{
+    font-family:"Alegreya Sans" ;
+    font-size: 19px;
+    color: rgb(133, 128, 128);
+}
+.ourlocationblog{
+    width: 100%;
+    margin: 20px;
+    padding: 20px;
+   background-color: rgb(248, 248, 248);
+}
+.locationimage .inner img{
+    width: 50%;
+  
+    float: left;
+    padding: 20px;
+
+}
+.locationtext .inner{
+    width: 50%;
+
+    float: left;
+    padding: 20px;
+    margin-top: 80px;
+}
+.locationtext .inner p{
+    font-family:"Alegreya Sans" ;
+    font-size: 19px;
+    color: rgb(133, 128, 128);
+}
+.locationtext .inner h2{
+    font-family:"Alegreya Sans" ;
+    font-size: 25px;
+}
+.ourbaking{
+    
+    width: 100%;
+    margin: 20px;
+    padding: 20px;
+   
+}
+.SuperiorBreads {
+   
+    width: 33.333%;
+    text-align: center;
+    float: left;
+    padding: 20px;
+    margin-bottom: 50px; 
+
+}
+.SuperiorBreads img {
+    background-color: brown;
+    width: 100%;
+
+}
+.Bagels{
+    
+    width: 33.333%;
+    text-align: center;
+    float: left;
+    padding: 20px;
+    margin-bottom: 50px; 
+
+}
+.Bagels img {
+    background-color: #a5972a;
+    width: 100%;
+}
+.Cookies{
+    
+    width: 33.333%;
+    text-align: center;
+    float: left;
+    padding: 20px;
+     margin-bottom: 50px; 
+
+}
+.Cookies img {
+    
+    width: 100%;
+}
+.ourbaking .tittle{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.ourbaking .tittle h2{
+    font-family:"Alegreya Sans" ;
+    font-size: 30px;
+    font-weight: 400;
+}
+.ourbaking .tittle p{
+    font-family:"Alegreya Sans" ;
+    font-size: 15px;
+    color: #686868;
+}
+.Cookies h2 {
+    font-family:"Alegreya Sans" ;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+
+}
+.Cookies  p{
+    font-family:"Alegreya Sans" ;
+    font-size: 17px;
+    color: #686868;
+}
+.Bagels  p{
+    font-family:"Alegreya Sans" ;
+    font-size: 17px;
+    color: #686868;
+}
+.SuperiorBreads  p{
+    font-family:"Alegreya Sans" ;
+    font-size: 17px;
+    color: #686868;
+}
+.SuperiorBreads h2 {
+    font-family:"Alegreya Sans" ;
+    font-size: 20px;
+    color: rgb(0, 0, 0);}
+.Bagels h2 {
+    font-family:"Alegreya Sans" ;
+    font-size: 20px;
+    color: rgb(0, 0, 0);}
+.contact{
+    width: 100%;
+    background-color: rgb(248, 248, 248);
+
+    margin: auto;
+    margin-top: 20px;
+}
+.contacttext{
+    width: 50%;
+     
+    float: left;
+    padding: 20px;
+
+}
+.contactimage{
+    width: 50%;
+    
+    float: left;
+    padding: 20px;
+    margin-top: 70px;
+    
+}
+.contactimage iframe{
+    width: 100%;
+   
+   
+    float: left;
+    padding: 20px;
+    margin: auto;
+}
+.contacttext .inner li i{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin:5px;
+  
+ 
+ }
+.contacttext p {
+    padding: 20px;
+    font-family:"Alegreya Sans" ;
+    font-size: 17px;
+    color: #686868;
+ }
+ .contacttext h2 {
+    font-family:"Alegreya Sans" ;
+    font-size: 30px;
+ }
+ .contacttext .inner li{
+    display: block;
+    font-size: 20px;
+ }
+ .footer{
+    width: 100%;
+    background-color:rgb(63, 61, 57);
+    margin: auto;
+    margin-top: 50px;
+ }
+ .aboutus{
+    width: 25%;
+   ; 
+    float: left; 
+    padding: 20px;
+    padding-bottom: 20px;
+
+ }
+ .special{
+    width: 25%;
+  
+    float: left;
+    padding: 20px;
+    padding-bottom: 20px;
+
+
+ }
+ .opining{
+    width: 25%;
+   
+    float: left;
+    padding: 20px;
+    padding-bottom: 20px;
+
+    
+ }
+ .opining li{
+    list-style: disc;
+    padding: 10px;
+ }
+ .details{
+     width: 25%;
+    background-image: url(../images/contact-details-map.png );
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 150px ;
+    height:auto;
+    float: left;
+    padding: 20px;
+    padding-bottom: 20px;
+    position: relative;
+
+ }
+ .details li img{
+    width: 30px;
+    height: 30px;
+ }
+ h4{
+    font-family:"Alegreya Sans" ;
+    font-size: 17px;
+    font-weight: 300;
+    color: aliceblue;
+ }
+ .aboutus p{
+    color: #686868;
+    padding: 10px;
+ }
+.special li{
+    color: #686868;
+    padding: 10px;
+}
+.opining li{
+    color: #686868;
+}
+.details ul{
+    color: #686868;
+    
+
+}
+.details ul a{
+    color: #686868;
+}
+
+ 
+
+ .last {
+    background-color: rgb(53,51,48);
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+ }
+ .icons img{
+   background-color: rgb(71, 69, 65);
+    width: 50%;
+    margin: auto;
+ }
+ .facebook{
+    width: 25%;
+    float: left;
+    border-radius: 50%;
+ }
+ .google{
+    width: 25%;
+    float: left;
+    border-radius: 50%;
+
+ }
+ .linkedin{
+    width: 25%;
+    float: left;
+    border-radius: 50%;
+ }
+ .twitter {
+    width: 25%;
+    float: left;
+    border-radius: 50%;
+ }
+ .icons .fa img{
+    border-radius: 50%;
+
+ }
+ .icons {
+   
+    width: 25%;
+    margin: auto;
+ }
+ .facebook img:hover{
+    background-color: rgb(75,105,177);
+ }
+ .google img:hover{
+    background-color: rgb(232, 63, 58);
+ }
+ .linkedin img:hover{
+    background-color: rgb(2,119, 181);
+ }
+ .twitter img:hover{
+    background-color: rgb(55, 177, 226);
+ }
+ .last p {
+    color: #686868;
+ }
+
+ 
+ 
+
+
